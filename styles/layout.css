@@ -4,6 +4,7 @@ header {
   height: 75px;
   border: 1px solid black;
   position: relative;
+  background-color: #9F756C;
 }
 
 /* b */
@@ -12,6 +13,7 @@ nav {
   height: 150px;
   border: 1px solid black;
   position: relative;
+  background-color: #7C9F6C;
 }
 
 .main-container {
@@ -24,6 +26,7 @@ nav {
   height: 125px;
   border: 1px solid black;
   position: relative;
+  background-color: #6C969F;
 }
 
 /* d */
@@ -32,6 +35,7 @@ nav {
   height: 125px;
   border: 1px solid black;
   position: relative;
+  background-color: #8E6C9F;
 }
 
 /* e */
@@ -40,6 +44,7 @@ nav {
   height: 250px;
   border: 1px solid black;
   position: relative;
+  background-color: #9F8A6C;
 }
 
 /* f */
@@ -48,6 +53,7 @@ nav {
   height: 250px;
   border: 1px solid black;
   position: relative;
+  background-color: #6C9F70;
 }
 
 /* g */
@@ -56,6 +62,7 @@ nav {
   height: 250px;
   border: 1px solid black;
   position: relative;
+  background-color: #6C819F;
 }
 
 /* h */
@@ -64,6 +71,7 @@ nav {
   height: 250px;
   border: 1px solid black;
   position: relative;
+  background-color: #9F756C;
 }
 
 .sub-one {
@@ -100,6 +108,7 @@ nav {
   height: 80px;
   border: 1px solid black;
   position: relative;
+  background-color: #9F6C9B;
 }
 
 @media( min-width: 960px ) {
@@ -147,7 +156,7 @@ nav {
     display: inline-block;
     margin-bottom: -4px;
   }
-  footer {
+  .footer {
     width: 760px;
     height: 150px;
     display: inline-block;

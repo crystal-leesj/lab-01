@@ -1,0 +1,196 @@
+/* On Desktop, float the divs in the section and center them */
+@media( min-width: 960px ) {
+
+  /* section {
+    display:table;
+  }
+
+  div {
+    float:left;
+    margin: 2em;
+  } */
+}
+
+
+/* a */
+header {
+  width: 480px;
+  height: 75px;
+  border: 1px solid black;
+  position: relative;
+}
+
+header p {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+
+/* b */
+nav {
+  width: 480px;
+  height: 150px;
+  border: 1px solid black;
+  position: relative;
+}
+
+nav p {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+/* c */
+.main-left {
+  width: 480px;
+  height: 125px;
+  border: 1px solid black;
+  position: relative;
+}
+
+/* d */
+.main-right {
+  width: 480px;
+  height: 125px;
+  border: 1px solid black;
+  position: relative;
+}
+
+.main-left p {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+.main-right p {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+/* e */
+.sub-one {
+  width: 240px;
+  height: 250px;
+  border: 1px solid black;
+  position: relative;
+}
+
+/* f */
+.sub-two {
+  width: 240px;
+  height: 250px;
+  border: 1px solid black;
+  position: relative;
+}
+
+/* g */
+.sub-three {
+  width: 240px;
+  height: 250px;
+  border: 1px solid black;
+  position: relative;
+}
+
+/* h */
+.sub-four {
+  width: 240px;
+  height: 250px;
+  border: 1px solid black;
+  position: relative;
+}
+
+.sub-one {
+  display: inline-block;
+  margin-right: -4px;
+}
+.sub-two {
+  display: inline-block;
+  margin-right: -4px;
+}
+.sub-three {
+  display: inline-block;
+  margin-right: -4px;
+}
+.sub-four {
+  display: inline-block;
+  margin-right: -4px;
+}
+
+.sub-one p {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+.sub-two p {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+.sub-three p {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+.sub-four p {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+.sub-container {
+  width: 480px;
+}
+
+.sub-left {
+  margin-bottom: -4px;
+}
+.sub-right {
+  margin-bottom: -4px;
+}
+
+/* i */
+
+footer {
+  width: 480px;
+  height: 80px;
+  border: 1px solid black;
+  position: relative;
+}
+
+footer p {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}

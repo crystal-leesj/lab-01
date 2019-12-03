@@ -6,31 +6,12 @@ header {
   position: relative;
 }
 
-header p {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%)
-}
-
-
 /* b */
 nav {
   width: 480px;
   height: 150px;
   border: 1px solid black;
   position: relative;
-}
-
-nav p {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%)
 }
 
 .main-container {
@@ -51,24 +32,6 @@ nav p {
   height: 125px;
   border: 1px solid black;
   position: relative;
-}
-
-.main-left p {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%)
-}
-
-.main-right p {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%)
 }
 
 /* e */
@@ -120,42 +83,6 @@ nav p {
   margin-right: -4px;
 }
 
-.sub-one p {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%)
-}
-
-.sub-two p {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%)
-}
-
-.sub-three p {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%)
-}
-
-.sub-four p {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%)
-}
-
 .sub-container {
   width: 480px;
 }
@@ -168,20 +95,11 @@ nav p {
 }
 
 /* i */
-footer {
+.footer {
   width: 480px;
   height: 80px;
   border: 1px solid black;
   position: relative;
-}
-
-footer p {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%)
 }
 
 @media( min-width: 960px ) {

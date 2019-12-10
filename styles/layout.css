@@ -1,98 +1,96 @@
-.grid-container {
-  display: grid;
-  grid-template-areas:
-    'a a a a a a'
-    'b b b b b b'
-    'c c c c c c'
-    'd d d d d d'
-    'e e e f f f'
-    'g g g h h h'
-    'i i i i i i';
-  grid-gap: 10px;
-  background-color: #2196F3;
-  padding: 10px;
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+  width: 480px;
 }
 
-.grid-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
-  text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
+.flex-container > * {
+  padding: 10px;
+  flex: 1 100%;
 }
 
 /* a */
-/* .item-a {
+.item-a {
   width: 480px;
   height: 75px;
   border: 1px solid black;
   background-color: #9F756C;
-} */
+}
 
 /* b */
-/* .item-b {
+.item-b {
   width: 480px;
   height: 150px;
   border: 1px solid black;
   background-color: #7C9F6C;
-} */
+}
 
 /* c */
-/* .item-c {
+.item-c {
   width: 480px;
   height: 125px;
   border: 1px solid black;
   background-color: #6C969F;
-} */
+}
 
 /* d */
-/* .item-d {
+.item-d {
   width: 480px;
   height: 125px;
   border: 1px solid black;
   background-color: #8E6C9F;
-} */
+}
 
 /* e */
-/* .item-e {
+.item-e {
   width: 240px;
   height: 250px;
   border: 1px solid black;
   background-color: #9F8A6C;
-} */
+  flex: 1 50%;
+}
 
 /* f */
-/* .item-f {
+.item-f {
+  /* grid-column-start: auto; */
   width: 240px;
   height: 250px;
   border: 1px solid black;
   background-color: #6C9F70;
-} */
+  flex: 1 50%;
+}
 
 /* g */
-/* .item-g {
+.item-g {
   width: 240px;
   height: 250px;
   border: 1px solid black;
   background-color: #6C819F;
-} */
+  flex: 1 50%;
+}
 
 /* h */
-/* .item-h {
+.item-h {
   width: 240px;
   height: 250px;
   border: 1px solid black;
   background-color: #9F756C;
-} */
+  flex: 1 50%;
+}
 
 /* i */
-/* .item-i {
+.item-i {
   width: 480px;
   height: 80px;
   border: 1px solid black;
   background-color: #9F6C9B;
-} */
+}
 
-/* @media( min-width: 960px ) {
+@media( min-width: 960px ) {
+  .flex-container {
+    width: 960px;
+  }
   .item-a {
    width: 960px;
    height: 100px;
@@ -100,21 +98,30 @@
   .item-b {
    width: 200px;
    height: 600px;
+   flex: 1 200px;
   }
   .item-c {
     width: 380px;
     height: 200px;
+    flex: 1 380px;
   }
   .item-d {
     width: 380px;
     height: 200px;
+    flex: 1 380px;
   }
-  .item-e, .item-f, .item-g, .item-h {
+  .item-e {
+    width: 190px;
+    height: 250px;
+    flex: 1 190px;
+  }
+  .item-f, .item-g, .item-h {
     width: 190px;
     height: 250px;
   }
-  .item-e {
+  .item-i {
     width: 760px;
     height: 150px;
+    flex: 1 760px;
   }
-} */
+}
